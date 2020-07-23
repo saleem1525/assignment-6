@@ -5,6 +5,15 @@ function getbox(){
 }
 
 
+// task 3
+
+function myFunction(r) {
+    var i = r.parentNode.parentNode.rowIndex;
+    document.getElementById("myTable").deleteRow(i);
+  }
+
+
+
 //task 4
 
 function mouseOver() {
